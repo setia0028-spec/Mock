@@ -4,16 +4,7 @@
 
 (function() {
   // Teks jawaban contoh (bisa diubah)
-  const ANSWER_TEXT = `Berdasarkan analisis di atas, berikut dampak perubahan iklim terhadap pertanian:
-
-1. Penurunan produktivitas pada tanaman pangan utama (padi, gandum, jagung)
-2. Pergeseran musim tanam yang mengganggu siklus pertanian
-3. Meningkatnya hama dan penyakit tanaman akibat suhu yang lebih hangat
-
-Untuk mitigasi, diperlukan:
-- Pengembangan varietas tahan iklim
-- Sistem irigasi yang lebih efisien
-- Praktik pertanian regeneratif`;
+  const ANSWER_TEXT = "sarkan analisis di atas, berikut dampak perubahan iklim terhadap pertanian:\n\n1. Penurunan produktivitas pada tanaman pangan utama (padi, gandum, jagung)\n2. Pergeseran musim tanam yang mengganggu siklus pertanian\n3. Meningkatnya hama dan penyakit tanaman akibat suhu yang lebih hangat\n\nUntuk mitigasi, diperlukan:\n- Pengembangan varietas tahan iklim\n- Sistem irigasi yang lebih efisien\n- Praktik pertanian regeneratif";
 
   function createTextStream(text) {
     const words = text.split(/\s+/).filter(w => w.length > 0);
